@@ -3,9 +3,9 @@
 	<head>
 		<meta charset="utf-8">
 		<title>统一个命名格式吧</title>
-		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+		<link rel="stylesheet" type="text/css" href="css/index.css" />
 	</head>
-<body>
+	<body>
 		<div id="header" class="w">
 			<h1 align="center">日本🇯🇵美食</h1>
 		</div>
@@ -138,7 +138,7 @@
 							此外，泡盛酒还有一大特点，那便是通过长期储存使酒中成分慢慢熟成，从而让口味逐渐变得醇厚圆润，酒香也越发馥郁四溢。储藏3年以上的泡盛酒被称为古酒（Kusu）。
 						</p>
 					</div>
-					
+
 				</div>
 			</div>
 		</div>
@@ -146,25 +146,4 @@
 			<p>&copy;咱们的组名哈哈哈哈哈！</p>
 		</div>
 	</body>
-	<script type="text/javascript">
-		window.addEventListener('load', function(ev) {
-			var array_img = ["images/top1.png", "images/top2.png", "images/top3.png", "images/top4.png"];
-			// 轮播图效果
-			var img = document.getElementById("box").children[0];
-			var lis = document.getElementById('lis');
-			var liList = lis.children;
-			var current_index = 0;
-			var timerId;
-
-
-			timerId = setInterval(function(ev) {
-				if (current_index >= array_img.length - 1) {
-					current_index = 0;
-				} else {
-					current_index++;
-				}
-				img.setAttribute('src', array_img[current_index]);
-			}, 2000)
-		});
-	</script>
 </html>
