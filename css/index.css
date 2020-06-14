@@ -1,0 +1,179 @@
+p,
+			h1,
+			h2,
+			h3,
+			h4,
+			h5,
+			body,
+			ul,
+			li,
+			div {
+				padding: 0;
+				margin: 0;
+			}
+
+			body {
+				background-image: url("../images/bgimg.jpg");
+				background-repeat: round;
+			}
+			.w{
+				margin: 0 auto;
+				width: 1200px !important;
+				height: 100%;
+			}
+			#nav {
+				margin: 0 auto;
+				height: 36px;
+				background-color: hsla(37, 91%, 58%, 1.00);
+				border: thin;
+			}
+
+			#nav ul {
+				width: 1200px;
+				height: 36px;
+				margin: 0 auto;
+			}
+
+			#nav a:link,
+			#nav a:visited {
+				line-height: 36px;
+				text-align: center;
+				color: currentColor;
+				background-color: hsla(37, 91%, 58%, 1.00);
+				text-decoration: none;
+				border-right: 1px solid #FFF;
+
+			}
+
+			.bdrl {
+				border-left: 1px solid #FFF;
+			}
+
+			#nav a:hover {
+				color: cornflowerblue;
+				background-color: bisque;
+				font-weight: 600;
+			}
+
+			#nav a:visited {
+				color: darkolivegreen;
+			}
+
+			#nav a {
+				display: block;
+				box-sizing: border-box;
+
+			}
+
+			#nav ul li {
+				width: 240px;
+				/*height:36px;*/
+				position: relative;
+				border-bottom: 1px dashed hsla(0, 0%, 62%, 1.00);
+				list-style-type: none;
+			}
+
+
+			#nav ul li ul {
+				position: absolute;
+				display: none;
+
+			}
+
+			#nav ul li:hover ul {
+				display: block;
+
+			}
+
+			#container {
+				width: 1200px;
+				margin: 0 auto;
+				background-color: white;
+			}
+
+			.abc {
+				float: left;
+			}
+
+			#header,
+			#footer {
+				width: 1440px;
+				margin: 0 auto;
+
+			}
+
+			#footer p {
+				color: aliceblue;
+				text-align: center;
+			}
+
+			#header {
+				background-image: url("../images/ord.JPG");
+				background-repeat: repeat-x; 
+				background-size: 100% 100% !important;
+				height: 170px;
+				line-height: 170px;
+				text-align: center;
+			}
+			#header h1 {
+				font-family: neuton;
+				font-size: 60px;
+			}
+			/* 轮播图 */
+			#box img{
+				width: 1200px;
+				height: 500px;
+				background-size: 100% 100%;
+				padding: 20px 30px 20px 30px;
+				box-sizing: border-box;
+			}
+			/* 介绍美食 */
+			.food_w{
+				width: 1000px;
+				margin: 0 auto;
+			}
+			.foods{
+				text-align: center;
+				font-family: neuton;
+			}
+			.foods p{
+				text-align: left;
+				font-size: 20px;
+				color: gray;
+				text-indent: 40px;
+				padding: 30px;
+				
+			}
+			.chongsheng{
+				width: 1000px;
+				margin: 0 auto;
+				border-bottom: 2px solid orange;
+			}
+			.delicous-foods{
+				margin-top: 20px;
+			}
+			.food h3{
+				text-align: left;
+				margin-bottom:20px;
+				color: darkgray;
+			}
+			.food_imgs{
+				display: flex;
+				justify-content: space-around;
+			}
+			.food_imgs .food_img img{
+				width: 400px;
+				height:300px;
+				border-radius: 10px;
+				transition: all 0.5s ease-in-out;
+			}
+			.food_imgs .food_img img:hover{
+				border-radius: 10px;
+				transform: scale(1.1);
+				transition: all 0.5s ease-in-out;
+			}
+			.food_img{
+				border-radius: 10px;
+				cursor: pointer;
+				overflow: hidden;
+			}
